@@ -1,0 +1,95 @@
+p:hover{
+    background-color: rgb(9, 228, 82);
+}
+h1:hover{
+    background-color: aquamarine;
+    text-align: center;
+}
+h2:hover{
+    background-color: rgba(107, 17, 190, 0.493);
+    color: crimson;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.abc{
+    color: chocolate;
+    background-color: aquamarine;
+    position: relative;
+}
+table{
+    background-color: rgb(240, 121, 121);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page{
+    height: 100vh;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630);
+}
+.relative{
+    position:relative;
+    top: 10px;
+}
+.sticky{
+    position: sticky;
+    top: 10px;
+}
+.flex{
+    display: flex;
+    background-color:blanchedalmond;
+    height: 100vh;
+    border: 3px solid brown;
+    justify-content:space-evenly;
+    align-items:first center;
+}
+.flex div{
+    background-color: rgb(240, 121, 121);
+    border: 2px solid blueviolet;
+    height: 100px;
+    width: 100px;
+}
+.two{
+    flex-shrink: 2;
+}
+.nev{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: cornflowerblue;
+    border: 2px solid rgb(133, 25, 25);
+}
+.grid-cointainer{
+    display: grid;
+    grid-template-rows: 100px 100px 100px ;
+    grid-template-columns: 100px 100px 100px 100px;
+
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.box2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.box4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.box5{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.grid-cointainer div{
+    border: 2px solid rgb(92, 9, 27);
+    background-color: rgb(32, 218, 203);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+@media (max-width:470px){
+    .nap{
+        display: flex;
+        flex-direction: column;
+    }
+}
