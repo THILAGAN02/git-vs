@@ -1,4 +1,4 @@
-p:hover{
+ p:hover{
     background-color: rgb(9, 228, 82);
 }
 h1:hover{
@@ -92,4 +92,4 @@ table{
         display: flex;
         flex-direction: column;
     }
-}
+} 
