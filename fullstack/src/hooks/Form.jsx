@@ -29,6 +29,7 @@ const Form = () => {
             <input type="password" name="password" value={formData.password} onChange={handleChange}/> <br />
             <label htmlFor="">Department:</label>
             <input type="text" name="department" value={formData.department} onChange={handleChange} />
+            <button type="submit">Submit</button>
         </form>
     </div>
   )

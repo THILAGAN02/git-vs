@@ -1,13 +1,12 @@
 import React from 'react'
-import Welcome from '../Welcome'
-import Skills from '../Skills'
+import { useContext } from 'react'
+import { ArrContext } from '../hooks/ArrContext'
 const Sevices = () => {
-  return (
+  const Info=useContext(ArrContext)
+  return ( 
     <div>
       <h1>Sevice</h1>
-        <Welcome name="Python"/>
-     <Skills skills={['React','Node','Express','MongoDb']}/>
-     <h1>Hello World</h1>
+       <h1>{Info.name} <br /> {Info.age} <br /> {Info.branch}</h1>
     </div>
   )
 }
